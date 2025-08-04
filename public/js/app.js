@@ -18,7 +18,7 @@ targetSearch.addEventListener('submit', (e) => {
         console.log('please enter a location')
     }
     location = search.value
-    const url = `http://localhost:3000/weather?address=${location}`
+    const url = `/weather?address=${location}`
     errorParag.textContent = ''
     targetParagraph1.textContent = 'loading'
     targetParagraph2.textContent = ''
